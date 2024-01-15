@@ -12,3 +12,12 @@ Just as labs frequently seek to convert backlogged data, they are also often mot
 To mitigate these challenges and promote wider adoption of NWB, we have developed a sophisticated software suite comprising three core tools. The first, _nwbinspector_, is a command-line interface (CLI) tool that ensures the validity of NWB files, enhancing their reliability for uploading to sharing platforms like DANDI. The second, _neuroconv_, is a Python package that facilitates the conversion of neurophysiology data from various proprietary formats to the NWB standard. Additionally, it aids in the development of automatic conversion pipelines, simplifying the process for researchers. The third tool, _NWB GUIDE_, is an interactive and user-friendly application that allows for the conversion of data to the NWB standard without requiring programming expertise. Powered by _neuroconv_, this tool is designed to cater to a broader audience, including researchers with minimal coding experience.
 
 In summary, our software suite addresses the multifaceted challenges associated with NWB adoption, offering tools that enhance data integrity, automate conversion processes, and provide accessible solutions for neurophysiologists at all programming skill levels. Through these innovations, we aim to catalyze the widespread implementation of NWB standards, fostering collaboration and advancing neurophysiological research.
+
+## Results
+### NWBInspector
+It can be time-consuming and error-prone to manually inspect all of the NWB files in a dataset, especially as datasets grow very large. DANDI datasets frequently occupy hundreds of GBs to TBs of disk space, spread across thousands of individual NWB files. This challenge is compounded for new users who may lack familiarity with NWB best practices, further hampering the effectiveness of manual inspection.
+
+...
+
+TBD
+
