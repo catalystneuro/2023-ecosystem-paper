@@ -29,10 +29,14 @@
             1. Best Practice Violation: A clear violation of known best practices, for example, negative spike times.
             2. Critical: A potentially critical mistake, such as zero-rate timestamps.
             3. Best Practice Suggestion: A suggestion for an improvement to the NWB file, such as adding an informative description.
+               Note: 3 tiers optimize tradeoff between comprehensiveness and unobtrusiveness
       3. Implementation Details:
-            1. CLI
-            2. Python API
-            3. Extensions and Configurations, for example, DANDI.
+            1. Example Usage
+                  1. CLI
+                  2. Python API
+                  3. Extensions and Configurations, for example, DANDI.
+            2. Many NWB objects to be checked → Inheritance of checks ex. TimeSeries leverages inherent sturcture of NWB
+            3. Managing different use cases and requirements ex. extensions, DANDI, etc. → Extensions & Configurations
 3. Neuroconv
       1. Problem/Solution Statements
             1. Problem: It can be time – consuming and error – prone to manually convert each neurophysiology data set to NWB using pynwb alone, especially for new users unfamiliar with NWB. It can also be difficult to create automatic lab-specific conversion pipelines due to data complexity, heterogeneity, and volume.
