@@ -16,7 +16,7 @@ In summary, our software suite addresses the multifaceted challenges associated 
 
 ## Results
 ### NWBInspector
-It can be time-consuming and error-prone to manually inspect all of the NWB files in a dataset, especially as datasets grow very large. DANDI datasets frequently occupy hundreds of GBs to TBs of disk space, spread across thousands of individual NWB files [cite DANDI]. This challenge is compounded for new users who may lack familiarity with NWB best practices, further hampering the effectiveness of manual inspection. To address this problem, we have developed _NWBInspector_, a Python-based package that assesses the quality of NWB files based on their compliance with established best practices.
+It can be time-consuming and error-prone to manually inspect all of the NWB files in a dataset, especially as datasets grow very large. DANDI datasets frequently occupy hundreds of GBs to TBs of disk space, spread across thousands of individual NWB files [cite DANDI]. This challenge is compounded for new users who may lack familiarity with NWB best practices, further hampering the effectiveness of manual inspection. To address this problem, we have developed _NWB Inspector_, a Python-based package that assesses the quality of NWB files based on their compliance with established best practices.
 
 After installation, _NWBInspector_ can be used very easily from the command line. Simply run
 ```bash
