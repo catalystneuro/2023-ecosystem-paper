@@ -24,7 +24,7 @@ After installation, _NWBInspector_ can be used very easily from the command line
 ```
 to inspect a single NWB file or
 ```bash
-        nwbinspector path/to/my/data/dir/
+    nwbinspector path/to/my/data/dir/
 ```
 to inspect all the NWB files in a given directory.
 
