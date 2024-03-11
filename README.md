@@ -28,7 +28,7 @@ to inspect a single NWB file or
 ```
 to inspect all the NWB files in a given directory.
 
-This command will produce a report of all the issues flagged by _NWBInspector_ directly in the terminal, ordered by importance as shown below.
+This command will produce a report of all the issues flagged by _NWB Inspector_ directly in the terminal, ordered by importance as shown below.
 [Example output]
 
 Unlike the _PyNWB_ validator, which checks for strict schema compliance, _NWBInspector_ only serves as an automatic data review aid. This means that, in an effort to catch as many potential mistakes as possible, _NWBInspector_ may raise warnings for intentional deviations from standard best practices. Conversely, if a user makes a mistake that does not violate any established best practices and it passes the _PyNWB_ validator, _NWBInspector_ might not catch that mistake. This structure leads to a trade-off between comprehensive inspection, which catches as many potential mistakes as possible, and an unobtrusive inspection process that only highlights truly problematic choices rather than intentional but unorthodox decisions.
